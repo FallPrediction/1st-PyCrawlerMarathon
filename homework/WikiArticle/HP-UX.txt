@@ -1,0 +1,4 @@
+HP-UX（取自Hewlett Packard UniX）是惠普科技（HP, Hewlett-Packard）以System V為基礎所研發成的類UNIX作業系統。HP-UX可以在HP的PA-RISC處理器、Intel的Itanium處理器的電腦上執行，另外過去也能用於後期的阿波羅電腦（Apollo/Domain）系統上。較早版本的HP-UX也能用於HP 9000系列200型、300型、400型的電腦系統（使用Motorola的68000處理器）上，和HP-9000系列500型電腦（使用HP專屬的FOCUS處理器架構）。
+
+2015年11月，惠普科技將企業級產品部門分割為慧與科技（HPE, Hewlett Packard Enterprise），HP-UX產品的開發與維護由慧與科技繼承之[1]。
+

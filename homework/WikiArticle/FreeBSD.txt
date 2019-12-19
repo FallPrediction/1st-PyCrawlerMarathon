@@ -1,0 +1,99 @@
+FreeBSD是一個類Unix的作業系統，也是FreeBSD專案的發展成果。[2]FreeBSD是第一個開放原始碼的系統，他是由基於BSD Unix的原始碼衍生而來的。BSD Unix是加州大學伯克利分校在1975年至1993年開發的作業系統。FreeBSD被開發為自由軟體，這意味著其原始碼開放，人人都可以使用FreeBSD。任何人都可以獲得並使用它來滿足各種需求，也可以修改它，然後再重釋出它。此功能專為個人和公司量身客製化，可用於建立各種基於FreeBSD的商業和非商業產品。儘管FreeBSD直接從BSD衍生，但是從法律的角度來看，FreeBSD並不是「UNIX」。因為現在「UNIX」商標是屬於國際開放標準組織的。[3]FreeBSD的第一個版本於1993年釋出。
+
+FreeBSD是一個支援許多硬體和體系架構的企業級系統。和其他BSD家族的作業系統一樣， FreeBSD其核心、驅動程式以及所有的用戶層（Userland）應用程式（如Unix shell和cat和ps等命令）都儲存在原始碼庫中。[4]FreeBSD也可以執行其他二進位軟體，比如Linux的。藉助ports和FreeBSD軟體包管理器，你可以在其上安裝各種應用程式。根據2005年的調查，77％的BSD用戶使用FreeBSD，因此FreeBSD擁有BSD系列中最大的用戶社區。[5]
+
+在今天，個人和企業都將FreeBSD用於多種用途，包括Yahoo! [6]，蘋果[7]，Juniper網路公司，諾基亞，IBM， Yandex的，Apache軟體基金會，Hotmail，索尼和許多其他用途。
+
+一些被企業廣泛應用的功能：
+
+電子郵件、 伺服器、 防火牆、 smartftp、 DNS 和 路由器。
+
+多種 X Window 桌面，如 GNOME 和 KDE。還有一些客製化桌面的專案，你會喜歡 TrueOS ，其試圖提供一個客製化版本的桌面系統。預設情況下，他有一個圖形的環境，便於用戶之間使用。
+
+Freebsd 有一個易於使用的軟體授權條款，這為用戶和企業提供了許多自由便利，並讓他們可以在自己的專有軟體產品中自由使用FreeBSD的原始碼。
+
+除了支援一些流行的平台(如 x86 、x86-64等等。 FreeBSD還支援 ARM、MIPS 以及 PowerPC， 並且亦可用於 嵌入式系統 。
+
+386BSD和FreeBSD均被源自1992年的BSD發行版。1992年1月， BSDi釋出BSD/386，後更名為BSD / OS，是基於BSD在1992年的發行版的，和FreeBSD相似的作業系統。AT＆T聲稱BSDi違反了AT&T的原始碼授權條款，並對其提起訴訟。該場訴訟達成庭外和解，相關細節未被披露。公眾所知的只有BSDi將轉換4.4BSD-Lite為新的原始碼基礎。雖然沒有參與訴訟，有人建議FreeBSD他們也應該將原始碼基礎轉到4.4BSD-精簡版。1994年11月，FreeBSD 2.0釋出，這是FreeBSD的首個不含任何AT&T代碼的版本。
+
+FreeBSD的TCP/IP棧區是基於BSD 4.2來實現的，因為它卓越的協定表現，從而被普遍的接受。FreeBSD還支援IPv6，SCTP，IPSec和無線網路（Wi-Fi）。其IPv6和IPSec棧區是由KAME Project得到的。同樣的，FreeBSD支援IPX和AppleTalk協定，但是它們被認為是陳舊的，因此被計劃在未來的FreeBSD 11.0上停止支援。
+
+從FreeBSD 5.4開始，共享位址冗餘協定（CARP）就從OpenBSD Project中被接受。CARP允許多節點共享IP位址群。所以如果一個節點出現癱瘓，其他的節點仍然能接收請求。
+
+FreeBSD的儲存方式，有多種獨特的特性。例如軟更新（英語：Soft updates）可以在系統崩潰的時候用來保護Unix檔案系統（一種通用於BSD的檔案系統）的一致性。而檔案系統快照，則可以允許有效率的製作Unix檔案系統的瞬時快照。另外通過GEOM（英語：GEOM）這個模組性基礎體系，就可以對RAID提供支援（僅限於RAID 0和1，RAID 3目前支援）。除此之外還可以支援全盤加密（英語：Disk encryption）、紀錄檔檔案系統、串連線制、高速緩衝記憶體記憶體、以及存取基於網路的系統。GEOM（英語：GEOM）也允許建立複雜的結合（「連結」）機制的儲存解決方案。[8]
+
+FreeBSD支援兩種資料加密基礎體系：GBDE（英語：GBDE）和Geli（英語：Geli (software)）。兩者操作均在磁碟層級上。GBDE（英語：GBDE）是由波爾-亨寧 · 坎普（英語：Poul-Henning Kamp）所編寫的，並在遵守雙BSD授權條款（即「簡化BSD授權條款」和「FreeBSD授權條款」二者）的情況下釋出的。而Geli（英語：Geli (software)）則是GBDE（英語：GBDE）的替代品，它第一次在FreeBSD 6.0上出現，由帕·雅·戴夫（Pawel Jakub Dawidek）編寫。
+
+FreeBSD支援UFS、ZFS等多種檔案系統。
+
+GNU/Linux上的軟體的原始碼經過編譯，大多數也可以在FreeBSD上執行。
+
+FreeBSD在BSD授權條款下釋出[9]，允許任何人在保留著作權和授權條款資訊的前提下隨意使用和發行。BSD授權條款並不限制將FreeBSD的原始碼在另一個協定下發行，因此任何團體都可以自由地將FreeBSD代碼融入它們的產品之中去。
+
+FreeBSD發展採用Core Team的方式。Core Team的成員決定整個FreeBSD計劃的大方向，對於開發者問的問題有最後的決定權，其他的開發者也可以送出建設或是他們修改過的原始碼，但是Core Team保留最終的決定權，決定是否將這功能放進FreeBSD。這種方式與Linux發展大相逕庭。
+
+也可以說是Submitter，無FreeBSD的CVS的存取權限，但是可以透過其它的方式，例如提交Problem Reports或是在Mailing list上面參與討論，來對FreeBSD做出貢獻。 [10]
+
+有對FreeBSD的Subversion存取的權限，可以將他的原始碼或是檔案送到版本庫裡面。一個committer必須要在過去的12個月中有commit的動作。而一個活躍的committer指在每個月至少都有一次以上的commit動作。
+
+雖然說沒有必要限制一個有commit權限的人只能在原始碼樹中可以存取的地方，但是如果一個committer要在他／她沒有做出貢獻或是不熟悉的地方，他／她必須要讀那個地方的歷史記錄，還有MAINTAINER檔案，確認這個部份的維護者對於更改這邊的原始碼有沒有什麼特殊的要求。[11]
+
+Core Team成員由committer互相推選出來，是整個FreeBSD計劃的領導人，他們提升活躍的contributor成為committer，還有可以指派「Hat」（指在計劃中負責一些特定工作或領域的人），也是對於決定整個計劃的大方向的最後仲裁者。在2004年7月1日，core team有9位成員，而core team選舉每兩年舉行一次。
+
+FreeBSD所支援的平台依照支援程度分成四個等級。[12] 第一線平台（Tier 1，完整支援平台）目前包括i386、AMD64。第二線平台（Tier 2，發展平台）包括ARM、IA-64、PC98、PowerPC、SPARC64（英語：SPARC64）。對於第一線與第二線平台，FreeBSD會維持維護及穩定性，同時大多數的新功能也都會被要求在這些平台上能夠正常運作。
+
+第三線平台（Tier 3，實驗平台）目前包括了MIPS及S/390（英語：IBM ESA/390），這個等級的平台不被FreeBSD正式支援。
+
+其他的平台都被歸類到第四線平台。
+
+FreeBSD的發展始於1993年，起源於386BSD（英語：386BSD）。[13]然而，因為386BSD原始碼的合理性受到質疑以及Novell（當時UNIX的著作權擁有者）與柏克萊接連而來的訴訟，FreeBSD在1995年1月釋出的2.0-RELEASE中以柏克萊加州大學的4.4BSD-Lite Release全面覆寫。FreeBSD Handbook中有更多FreeBSD的發展歷史。
+
+FreeBSD 2.0最值得注意的部份也許是對卡內基美隆大學的Mach Virtual Memory系統翻修以及FreeBSD Ports system的發明。前者對於高負荷的系統最佳化，後者則是建立了一套簡單且強大的機制維護第三方軟體。有不少大型站台都使用FreeBSD，像是cdrom.com（一個巨大的軟體收集站台），Hotmail以及Yahoo。
+
+FreeBSD 3.0則引入了ELF binary格式，並開始支援多CPU系統（SMP，Symmetric multiprocessing）以及64位元Alpha平台。3.x對於系統做了非常多的改革，這些措施在當時並沒有帶來好處，但卻是4.X成功的基石。
+
+4.0-RELEASE於2000年3月發行，最後一個版本4.11-RELEASE於2005年1月發行，並支援到2007年1月[14]。FreeBSD 4也是FreeBSD最長壽的主版本。在FreeBSD 4所發展出來的kqueue也被移植到各種不同BSD平台。
+
+Free BSD 5的最後一個版本FreeBSD5.5於2006年五月發行。
+
+在FreeBSD 4的SMP架構下，在同一時間內只允許一個CPU進入核心（即Giant Lock），FreeBSD 5最大的改變在於改善底層核心Locking機制，審視並覆寫核心程式碼，使得不同的CPU可以同時進入系統核心，藉以增加效率。
+
+另外一個重大的改變在於自5.3開始支援m:n執行緒的KSE（Kernel Scheduled Entities），表示m個使用者執行緒共享n個核心執行緒的模式。
+
+這個版本的許多貢獻是由於商業化版本的BSD OS團隊的支援。
+
+FreeBSD 6為一個-STABLE發展版本，FreeBSD 6.3在2008年1月18日發行[15]，這個版本主要針對軟體的更新，並加入lagg（可以對多張網卡操作）的支援，並引入重新覆寫的unionfs。FreeBSD 6.4在2008年11月28日發行[16]。
+
+FreeBSD 7為目前第二個-STABLE發展版本，在2007年6月19日進入發行程式[17]，2008年2月27日7.0-RELEASE正式釋出。2010年3月23日FreeBSD 7.3-RELEASE正式釋出[18]。新增的功能包括了：
+
+2010年7月24日釋出FreeBSD 8.1-RELEASE, [32]
+增加如下新特性：[33]
+
+FreeBSD 9.0於2012年1月釋出，該版本是第一個9.x的FreeBSD穩定分支。該版本具有以下特性：
+
+FreeBSD 9.1於2012年11月發布
+
+FreeBSD 9.2於2013年10月發布
+
+FreeBSD 9.3於2014年7月發布
+
+FreeBSD 10.0於2014年1月發布，這一版本包含的重要改進包括：
+
+FreeBSD 10.1於2014年11月6日正式發布
+
+FreeBSD 10.2於2015年8月13日正式發布。主要改進包括[44]：
+
+FreeBSD 10.3於2016年3月25日正式發布
+
+FreeBSD 11.0於2016年9月22日正式發布
+
+
+
+FreeBSD包含了GNU通用公眾授權條款、GNU較寬鬆公共許可證、ISC授權條款、通用開發與散布授權條款和啤酒軟體授權條款的程式碼，也有使用三條款和四條款的BSD授權條款的程式碼。另外有些驅動程式也包涵了二進位大型物件，像是Atheros公司的硬體抽象層。這使得所有人都可以自由地使用還有再散布FreeBSD。
+
+不過，FreeBSD的核心和新開發的程式碼大多都使用兩條款的BSD授權條款釋出，許多使用GPL的程式碼都必須經過淨室工程，以其他授權方式重寫，這主要是避免整個核心受到GPL影響。
+
+正體中文：
+
+其他channel可以參考FreeBSD官方wiki的IrcChannels頁面。
+
